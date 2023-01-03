@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top,
+.midone,
+.footer {
+    background-color: #1F2937;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: 1000;
+    color: #F9FAF8;
+    align-self: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+li,
+.text {
+    list-style: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.midone {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+
+.right-midone {
+    flex-basis: 50%;
+    flex-shrink: 0;
+    display: flex;
+    background-color: gray;
+    color:#e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-midone {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 7px;
+    padding: 10px 30px;
+    margin: 10px 0;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.midtwo {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 30px 0;
+    justify-content: center;
+    align-self: center;
+}
+
+.cards {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+
+.stext {
+    color: #1F2937;
+    max-width: 150px;
+    margin: 10px 0;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.midthree {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 250px;
+    background-color: #e5e7eb;
+    margin: 20px 0;
+    gap: 20px;
+    min-width: 300px;
+}
+
+.quote {
+    color: #1f29379d;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.thor {
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.midfour {
+    display: flex;
+    padding: 30px 70px;
+    margin: 60px 180px;
+    justify-content: center;
+    align-self: center;
+    background-color: #3882f6;
+    border-radius: 7px;
+    gap: 50px;
+    min-width: 500px;
+}
+
+.action {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+button.button-midfour {
+    border: 3px solid white;
+    width: 150px;
+    flex-shrink: 0;
+}
+
+.footer {
+    padding: 25px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
